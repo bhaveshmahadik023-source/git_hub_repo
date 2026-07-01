@@ -23,8 +23,6 @@ public class Git_Hub_agent {
             // read token from environment variable
             String token = System.getenv("GITHUB_TOKEN");
 
-            System.out.println(token);
-
             // add all files
             git.add()
                     .addFilepattern(".")
